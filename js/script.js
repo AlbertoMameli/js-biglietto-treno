@@ -27,24 +27,24 @@ console.log(km, age);
 
 
 let distancePrice = km * 0.21
- console.log(distancePrice);
+console.log(distancePrice);
 
- let ticket 
-  if (age < 18) {     
-   ticket = distancePrice - (distancePrice * 20 / 100)
- } 
-  else if (age > 65) {
-    ticket = distancePrice - (distancePrice * 40 / 100)
- }
-
-else  {
-  ticket = distancePrice 
+let ticket
+if (age < 18) {
+  ticket = distancePrice - (distancePrice * 20 / 100)
 }
-// ticket = ticket
-  console.log(ticket.toFixed(2));
+else if (age > 65) {
+  ticket = distancePrice - (distancePrice * 40 / 100)
+}
+
+else {
+  ticket = distancePrice
+}
+ticket = ticket.toFixed(2)
+console.log(ticket);
 
 
-    
+
 
 
 
