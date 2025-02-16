@@ -12,8 +12,8 @@
 
 //calcola in base la distanza che deve percorrere il prezzo intero del biglietto
 
-//Se utente ha età >18 allora avrà uno sconto del 20% sul prezzo intero del biglietto
-//Se utente ha età <65 allora avrà uno sconto del 40% sul prezzo intero del biglietto
+//Se utente ha età < 18 allora avrà uno sconto del 20% sul prezzo intero del biglietto
+//Se utente ha età > 65 allora avrà uno sconto del 40% sul prezzo intero del biglietto
 //altrimenti pagherà l'importo pieno.
 
 
@@ -40,8 +40,8 @@ let distancePrice = km * 0.21
 else  {
   ticket = distancePrice 
 }
-
-  console.log(ticket);
+// ticket = ticket
+  console.log(ticket.toFixed(2));
 
 
     
